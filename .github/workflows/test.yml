@@ -1,10 +1,8 @@
 name : Sample Workflow
-
-on :  
+on :
   workflow_dispatch :
-
 jobs : 
-  sample_job : 
+  sample_job :
     runs-on : my-label
-     steps : 
-      - run : hostname
+    steps :
+     - run : hostname
